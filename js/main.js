@@ -1,0 +1,9 @@
+bug=document.querySelector('.bug')
+Navbar=document.querySelector('.Navbar')
+login=document.querySelector('.login')
+nav_list=document.querySelector('.nav_list')
+bug.addEventListener('click',()=>{
+   login.classList.toggle('g_go');
+   nav_list.classList.toggle('nav_list');
+   Navbar.classList.toggle('.hide-h');
+})
